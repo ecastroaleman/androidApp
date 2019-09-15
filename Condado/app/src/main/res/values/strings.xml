@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Condado</string>
+    <string name="usuario">Ingrese Usuario</string>
+    <string name="logo">Logo Bienvenida</string>
+    <string name="password">Ingrese Password</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="RecupClave">Recuperar Contraseña</string>
+    <string name="WS_recuperaclave">http://sanlazaro.milenium.tech/wsrest/RecuperaClave.php?</string>
+    <string name="WS_login">http://sanlazaro.milenium.tech/wsrest/post.php?</string>
+    <string name="title_activity_menu__inicio">Menu_Inicio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nombre de Usuario</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

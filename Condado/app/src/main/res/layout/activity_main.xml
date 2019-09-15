@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg2"
+    >
+
+   <LinearLayout
+       android:paddingTop="50dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:paddingLeft="25dp"
+       android:paddingRight="25dp">
+
+
+       <ImageView
+           android:id="@+id/imageView"
+           android:layout_width="110dp"
+           android:layout_height="112dp"
+           android:layout_gravity="center_horizontal"
+           android:adjustViewBounds="true"
+           android:contentDescription="@string/logo"
+           android:scaleType="centerInside"
+           tools:srcCompat="@drawable/logo3"
+
+           />
+
+       <LinearLayout
+        android:paddingTop="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:baselineAligned="true"
+        android:textAlignment="center"
+        android:background="@drawable/edittextstyle">
+
+       <EditText
+           android:id="@+id/usuario"
+           android:textColor="#fff"
+           android:textColorHint="#fff"
+           android:background="@drawable/edittextstyle"
+           android:layout_width="320dp"
+           android:layout_height="60dp"
+           android:layout_gravity="center"
+           android:paddingStart="15dp"
+           android:paddingEnd="15dp"
+
+           android:hint="@string/usuario"
+
+           android:autofillHints="@string/usuario"
+           android:textSize="23sp"
+           android:inputType="textEmailAddress"
+
+           android:drawableStart="@drawable/ic_stat_name"
+
+           />
+       <EditText
+           android:id="@+id/clave"
+           android:textColor="#fff"
+           android:textColorHint="#fff"
+           android:background="@drawable/edittextstyle"
+           android:layout_marginTop="10dp"
+           android:layout_width="320dp"
+           android:layout_height="60dp"
+           android:paddingStart="15dp"
+           android:paddingEnd="15dp"
+           android:textSize="23sp"
+           android:layout_gravity="center"
+           android:hint="@string/password"
+           android:autofillHints="@string/password"
+           android:inputType="textPassword"
+           android:drawableStart="@drawable/clave" />
+       <Button
+           android:textColor="#fff"
+           android:background="@drawable/buttonstyleselector"
+           android:layout_marginTop="50dp"
+           android:layout_width="match_parent"
+           android:text="@string/btn_ingresar"
+           android:layout_height="60dp"
+           android:contextClickable="true"
+           android:layout_marginLeft="10dp"
+           android:textSize="23sp"
+           android:id="@+id/ingresar"
+           android:layout_marginRight="10dp"/>
+
+           <TextView
+               android:id="@+id/recuperarclave"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:autofillHints="@string/RecupClave"
+               android:background="@android:color/transparent"
+               android:hint="@string/RecupClave"
+               android:inputType="none"
+               android:onClick="RecuperarClave"
+               android:paddingStart="10dp"
+               android:paddingTop="5dp"
+               android:paddingEnd="10dp"
+               android:textAlignment="center"
+               android:textColor="#ffc107"
+               android:textColorHint="#ffc107"
+               android:textSize="18sp" />
+
+           <TextView
+               android:id="@+id/iramenu"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:autofillHints="@string/RecupClave"
+               android:background="@android:color/transparent"
+               android:hint="Temporal para ver Menu"
+               android:inputType="none"
+               android:onClick="irAMenu"
+               android:paddingStart="10dp"
+               android:paddingTop="5dp"
+               android:paddingEnd="10dp"
+               android:textAlignment="center"
+               android:textColor="#ffc107"
+               android:textColorHint="#ffc107"
+               android:textSize="18sp" />
+
+    </LinearLayout>
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
